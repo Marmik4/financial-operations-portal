@@ -1,0 +1,20 @@
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+mat-card {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.mat-column-actions {
+  text-align: right;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+.status-approved { background-color: #e8f5e9; color: #2e7d32; }
+.status-pending { background-color: #fff3e0; color: #ef6c00; }
